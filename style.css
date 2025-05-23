@@ -1,0 +1,190 @@
+
+
+
+
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x600');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+        .subject-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #0d6efd;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 30px 0;
+        }
+        .country-flag {
+            width: 30px;
+            margin-right: 10px;
+        }
+ 
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        .carousel-item {
+            height: 800px;
+        }
+        .carousel-item img {
+            object-fit: cover;
+            height: 100%;
+            object-position: center ;
+        }
+        .carousel-caption {
+        
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+
+
+    .olympiad-section {
+        padding: 3rem 0;
+        background-color: #f8f9fa;
+    }
+    
+    .olympiad-card {
+        transition: all 0.3s ease;
+        border-radius: 12px;
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    
+    .image-container {
+        height: 200px;
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .image-container img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    
+    .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: #2c3e50;
+    }
+    
+    .card-text {
+        color: #6c757d;
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .event-details {
+        margin-top: auto;
+    }
+    
+    .badge {
+        font-size: 0.75rem;
+        font-weight: 500;
+        padding: 0.35em 0.65em;
+        margin-bottom: 1rem;
+    }
+    
+    .card-footer {
+        background: white;
+        border-top: 1px solid rgba(0,0,0,0.05);
+        padding: 1rem 1.5rem;
+    }
+    
+    .btn-sm {
+        padding: 0.35rem 0.75rem;
+        font-size: 0.85rem;
+        border-radius: 8px;
+    }
+    
+    @media (max-width: 768px) {
+        .image-container {
+            height: 180px;
+        }
+        
+        .card-body {
+            padding: 1.25rem;
+        }
+    }
+
+
+
+ /* Дополнительные стили для навигации */
+    .navbar {
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        padding: 0.5rem 1rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+        letter-spacing: 0.5px;
+    }
+    
+    .nav-link {
+        padding: 0.75rem 1rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border-radius: 4px;
+        margin: 0 2px;
+    }
+    
+    .nav-link:hover, .nav-link:focus {
+        background-color: rgba(255,255,255,0.1);
+    }
+    
+    .nav-link.active {
+        background-color: rgba(255,255,255,0.2);
+    }
+    
+    .dropdown-menu {
+        border: none;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .dropdown-item {
+        padding: 0.5rem 1.5rem;
+    }
+    
+    @media (max-width: 992px) {
+        .navbar-collapse {
+            padding: 1rem 0;
+        }
+        
+        .nav-link {
+            margin: 2px 0;
+        }
+        
+        .dropdown {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+    }
